@@ -1,4 +1,4 @@
-const VERCEl_API_ENDPOINT = 'https://pokemon-analyzer-backend.vercel.app'; 
+const VERCEl_API_ENDPOINT = 'https://pokemon-analyzer-backend.vercel.app/api/analyze'; 
 
 const teamInput = document.getElementById('teamInput');
 const analyzeButton = document.getElementById('analyzeButton');
