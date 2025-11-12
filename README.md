@@ -1,31 +1,8 @@
-# Node.js Hello World
+# 포켓몬 팀 분석기
 
-Simple Node.js + Vercel example that returns a "Hello World" response.
+gemini api를 사용해서 사용자에게서 포켓몬 팀정보를 받고 약점이 되는 포켓몬을 제시해줌
 
-## How to Use
+## 만든 과정
 
-You can choose from one of the following two methods to use this repository:
+api키 발급 - vercel에 node.js기반 플젝 작성 - vercel에 api키 저장 - vercel에 gemini에 넣을 스크립트 저장 - git 홈페이지 제작후 vercel 연결
 
-### One-Click Deploy
-
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=vercel-examples):
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/examples/tree/main/solutions/node-hello-world&project-name=node-hello-world&repository-name=node-hello-world)
-
-### Clone and Deploy
-
-```bash
-git clone https://github.com/vercel/examples/tree/main/solutions/node-hello-world
-```
-
-Install the Vercel CLI:
-
-```bash
-npm i -g vercel
-```
-
-Then run the app at the root of the repository:
-
-```bash
-vercel dev
-```
