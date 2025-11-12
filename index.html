@@ -3,17 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>포켓몬 팀 약점 분석기 (Gemini Powered)</title>
+    <title>포켓몬 팀 분석기 (Gemini Powered)</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <h1>👾 포켓몬 팀 약점 분석기 🛡️</h1>
-        <p>배틀에서 사용할 포켓몬 6마리의 이름을 쉼표(,)로 구분하여 입력하세요.</p>
+        <h1>👾 포켓몬 팀 분석기 🛡️</h1>
+        <p>배틀에서 사용할 포켓몬 정보를 입력하세요. 쇼다운 텍스트 가능</p>
 
-        <textarea id="teamInput" rows="4" placeholder="예: 망나뇽, 타부자고, 마스카나, 콜로솔트, 날개치는머리, 어써러셔"></textarea>
+        <textarea id="teamInput" rows="4" placeholder="예: Chien-Pao @ Focus Sash  
+Ability: Sword of Ruin  
+Level: 99  
+Tera Type: Electric  
+EVs: 252 Atk / 180 Def / 76 Spe  
+Naive Nature  
+- Icicle Crash  
+- Sucker Punch  
+- Sacred Sword  
+- Tera Blast  "></textarea>
 
-        <button id="analyzeButton">팀 약점 분석 시작</button>
+        <button id="analyzeButton">팀 분석 시작</button>
 
         <div id="loading" class="hidden">
             분석 중... 잠시만 기다려 주세요! 🧠
