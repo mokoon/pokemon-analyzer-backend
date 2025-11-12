@@ -2,9 +2,8 @@
   "repository": "https://github.com/vercel/examples.git",
   "license": "MIT",
   "private": true,
-  // 실행에 필요한 라이브러리는 'dependencies' 섹션에 넣습니다.
   "dependencies": {
-    "@google/genai": "^0.2.1"  // 🚨 이 버전을 사용해 보세요.
+    "@google/genai": "^0.2.1"
   },
   "devDependencies": {
     "@types/node": "^17.0.42",
