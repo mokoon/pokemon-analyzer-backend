@@ -2,10 +2,13 @@
   "repository": "https://github.com/vercel/examples.git",
   "license": "MIT",
   "private": true,
+  // 실행에 필요한 라이브러리는 'dependencies' 섹션에 넣습니다.
+  "dependencies": {
+    "@google/genai": "^0.2.1"  // 🚨 이 버전을 사용해 보세요.
+  },
   "devDependencies": {
     "@types/node": "^17.0.42",
     "@vercel/node": "^2.9.6",
-    "typescript": "^4.7.3",
-    "@google/genai": "^0.1.0" 
+    "typescript": "^4.7.3"
   }
 }
