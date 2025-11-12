@@ -8,7 +8,7 @@ const ai = new GoogleGenAI({ apiKey });
 
 // 🚨 CORS를 처리하는 헤더를 정의합니다.
 // 'Access-Control-Allow-Origin'에는 요청을 보낼 당신의 GitHub Pages 도메인을 정확히 입력해야 합니다.
-const CORS_ORIGIN = 'https://mokoon.github.io/pokemon-analyzer-backend/'; 
+const CORS_ORIGIN = 'https://mokoon.github.io'; 
 const CORS_HEADERS = {
     'Access-Control-Allow-Origin': CORS_ORIGIN, 
     'Access-Control-Allow-Methods': 'POST, OPTIONS',
