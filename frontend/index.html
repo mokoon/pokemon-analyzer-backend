@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>포켓몬 팀 약점 분석기 (Gemini Powered)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>👾 포켓몬 팀 약점 분석기 🛡️</h1>
+        <p>배틀에서 사용할 포켓몬 6마리의 이름을 쉼표(,)로 구분하여 입력하세요.</p>
+
+        <textarea id="teamInput" rows="4" placeholder="예: 망나뇽, 타부자고, 마스카나, 콜로솔트, 날개치는머리, 어써러셔"></textarea>
+
+        <button id="analyzeButton">팀 약점 분석 시작</button>
+
+        <div id="loading" class="hidden">
+            분석 중... 잠시만 기다려 주세요! 🧠
+        </div>
+
+        <div id="resultContainer" class="hidden">
+            <h2>🔍 분석 결과</h2>
+            <div id="analysisResult"></div>
+        </div>
+
+        <div id="error" class="hidden">
+            ⚠️ 오류 발생: 서버와 통신에 문제가 있거나, 분석에 실패했습니다.
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
